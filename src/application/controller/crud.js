@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const dbPath = path.resolve(__dirname, '../../../database/produk/produk.json');
+const dbPath = path.resolve(__dirname, '../../../database/produk/barang.json');
 
 function getData() {
   if (!fs.existsSync(dbPath)) {
